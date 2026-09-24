@@ -1,0 +1,50 @@
+[
+  {
+    "id": "billboard",
+    "name": "Billboard",
+    "icon": "billboard",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Highway_Billboard_in_North_Dakota.jpg/960px-Highway_Billboard_in_North_Dakota.jpg",
+    "description": "Large-format static displays on highways & main roads",
+    "count": 23
+  },
+  {
+    "id": "radio",
+    "name": "Radio",
+    "icon": "radio",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Microphones_in_SPNN_Podcast_studio-01.jpg/960px-Microphones_in_SPNN_Podcast_studio-01.jpg",
+    "description": "On-air spots across the UAE's top radio stations",
+    "count": 23
+  },
+  {
+    "id": "tv",
+    "name": "TV",
+    "icon": "tv",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Smart_Television.jpg/960px-Smart_Television.jpg",
+    "description": "Television ad slots on national & regional channels",
+    "count": 23
+  },
+  {
+    "id": "newspaper",
+    "name": "Newspaper",
+    "icon": "newspaper",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/A_stack_of_newspapers.jpg",
+    "description": "Print placements in leading UAE newspapers",
+    "count": 23
+  },
+  {
+    "id": "magazine",
+    "name": "Magazine",
+    "icon": "magazine",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Mockup-featuring-a-magazine-pile-and-a-customizable-background-1104-el.png/960px-Mockup-featuring-a-magazine-pile-and-a-customizable-background-1104-el.png",
+    "description": "Feature & display ads in lifestyle and business magazines",
+    "count": 23
+  },
+  {
+    "id": "digital-billboard",
+    "name": "Digital Billboard",
+    "icon": "digital",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Digital_Billboard%2C_Wakefield_Road_-_Fenby_Avenue%2C_Bradford_-_geograph.org.uk_-_7383099.jpg/960px-Digital_Billboard%2C_Wakefield_Road_-_Fenby_Avenue%2C_Bradford_-_geograph.org.uk_-_7383099.jpg",
+    "description": "Dynamic digital OOH screens in prime locations",
+    "count": 23
+  }
+]

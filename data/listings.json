@@ -1,0 +1,550 @@
+[
+  {
+    "id": "ADS-1001",
+    "title": "48ft x 14ft Static Billboard",
+    "category": "billboard",
+    "categoryName": "Billboard",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Highway_Billboard_in_North_Dakota.jpg/960px-Highway_Billboard_in_North_Dakota.jpg",
+    "location": "Sheikh Zayed Road, Dubai",
+    "city": "Dubai",
+    "price": 12000,
+    "priceUnit": "month",
+    "size": "48 x 14 ft",
+    "rating": 4.8,
+    "reviews": 45,
+    "featured": true,
+    "availability": "Available Now",
+    "description": "Premium static billboard facing the busiest stretch of Sheikh Zayed Road, capturing high commuter traffic in both directions throughout the day. Ideal for brand awareness campaigns targeting professionals and residents across Dubai.",
+    "tags": [
+      "High Traffic",
+      "Two-Sided",
+      "Illuminated"
+    ],
+    "specs": {
+      "Format": "Static Print",
+      "Illumination": "Backlit",
+      "Traffic": "180,000 vehicles/day",
+      "Booking Type": "Monthly"
+    },
+    "mediaOwner": {
+      "name": "Al Noor Outdoor Media",
+      "verified": true,
+      "since": 2014,
+      "responseTime": "Within 2 hours",
+      "listings": 18
+    },
+    "images": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "ADS-1002",
+    "title": "Full HD Digital Screen - Downtown",
+    "category": "digital-billboard",
+    "categoryName": "Digital Billboard",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Digital_Billboard%2C_Wakefield_Road_-_Fenby_Avenue%2C_Bradford_-_geograph.org.uk_-_7383099.jpg/960px-Digital_Billboard%2C_Wakefield_Road_-_Fenby_Avenue%2C_Bradford_-_geograph.org.uk_-_7383099.jpg",
+    "location": "Downtown Dubai, Dubai",
+    "city": "Dubai",
+    "price": 18500,
+    "priceUnit": "month",
+    "size": "20 x 10 ft",
+    "rating": 4.9,
+    "reviews": 61,
+    "featured": true,
+    "availability": "Available Now",
+    "description": "Eye-catching full HD LED screen steps from Burj Khalifa and Dubai Mall. Rotating ad slots let you reach tourists, shoppers and residents with rich motion creative around the clock.",
+    "tags": [
+      "Prime Location",
+      "Motion Creative",
+      "24/7"
+    ],
+    "specs": {
+      "Format": "Digital LED",
+      "Resolution": "1920 x 1080",
+      "Traffic": "Foot & vehicle",
+      "Booking Type": "Monthly"
+    },
+    "mediaOwner": {
+      "name": "Skyline Digital Media",
+      "verified": true,
+      "since": 2018,
+      "responseTime": "Within 1 hour",
+      "listings": 9
+    },
+    "images": [
+      2,
+      3,
+      1
+    ]
+  },
+  {
+    "id": "ADS-1003",
+    "title": "40ft x 7ft Static Billboard",
+    "category": "billboard",
+    "categoryName": "Billboard",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Highway_Billboard_in_North_Dakota.jpg/960px-Highway_Billboard_in_North_Dakota.jpg",
+    "location": "Dubai Marina Downtown, Dubai",
+    "city": "Dubai",
+    "price": 8500,
+    "priceUnit": "month",
+    "size": "40 x 7 ft",
+    "rating": 4.6,
+    "reviews": 28,
+    "featured": true,
+    "availability": "Available Now",
+    "description": "Well-positioned billboard overlooking Dubai Marina's waterfront promenade, popular with residents, tourists and the after-work crowd walking the marina walk.",
+    "tags": [
+      "Waterfront",
+      "High Footfall"
+    ],
+    "specs": {
+      "Format": "Static Print",
+      "Illumination": "Non-lit",
+      "Traffic": "95,000 vehicles/day",
+      "Booking Type": "Monthly"
+    },
+    "mediaOwner": {
+      "name": "OPM Outdoor",
+      "verified": true,
+      "since": 2012,
+      "responseTime": "Within 3 hours",
+      "listings": 24
+    },
+    "images": [
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "ADS-1004",
+    "title": "Drive-Time Radio Spot - 60 sec",
+    "category": "radio",
+    "categoryName": "Radio",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Microphones_in_SPNN_Podcast_studio-01.jpg/960px-Microphones_in_SPNN_Podcast_studio-01.jpg",
+    "location": "Dubai Media City, Dubai",
+    "city": "Dubai",
+    "price": 2200,
+    "priceUnit": "spot",
+    "size": "60 sec",
+    "rating": 4.7,
+    "reviews": 19,
+    "featured": false,
+    "availability": "Booking Fast",
+    "description": "60-second spot in the peak evening drive-time slot on one of Dubai's top-rated FM stations, reaching commuters across the city.",
+    "tags": [
+      "Peak Hours",
+      "High Reach"
+    ],
+    "specs": {
+      "Format": "Audio",
+      "Slot": "Evening Drive 5-7pm",
+      "Language": "English",
+      "Booking Type": "Per Spot"
+    },
+    "mediaOwner": {
+      "name": "Emirates FM Network",
+      "verified": true,
+      "since": 2009,
+      "responseTime": "Within 4 hours",
+      "listings": 11
+    },
+    "images": [
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "ADS-1005",
+    "title": "Prime-Time TV Commercial - 30 sec",
+    "category": "tv",
+    "categoryName": "TV",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Smart_Television.jpg/960px-Smart_Television.jpg",
+    "location": "Dubai Studio City, Dubai",
+    "city": "Dubai",
+    "price": 25000,
+    "priceUnit": "spot",
+    "size": "30 sec",
+    "rating": 4.5,
+    "reviews": 14,
+    "featured": true,
+    "availability": "Available Now",
+    "description": "Prime-time 30-second commercial slot on a leading regional entertainment channel, reaching a broad UAE and GCC household audience.",
+    "tags": [
+      "Prime Time",
+      "Regional Reach"
+    ],
+    "specs": {
+      "Format": "Video",
+      "Slot": "8-10pm",
+      "Language": "Arabic/English",
+      "Booking Type": "Per Spot"
+    },
+    "mediaOwner": {
+      "name": "Gulf Vision Broadcasting",
+      "verified": true,
+      "since": 2005,
+      "responseTime": "Within 1 day",
+      "listings": 6
+    },
+    "images": [
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "id": "ADS-1006",
+    "title": "Full Page Ad - Gulf Times",
+    "category": "newspaper",
+    "categoryName": "Newspaper",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/A_stack_of_newspapers.jpg",
+    "location": "Al Reem Island, Abu Dhabi",
+    "city": "Abu Dhabi",
+    "price": 6000,
+    "priceUnit": "insertion",
+    "size": "Full Page",
+    "rating": 4.4,
+    "reviews": 22,
+    "featured": false,
+    "availability": "Available Now",
+    "description": "Full-page placement in a widely-read Abu Dhabi daily, well suited for corporate announcements, launches and public notices.",
+    "tags": [
+      "Full Page",
+      "Wide Circulation"
+    ],
+    "specs": {
+      "Format": "Print",
+      "Circulation": "45,000 copies",
+      "Language": "English",
+      "Booking Type": "Per Insertion"
+    },
+    "mediaOwner": {
+      "name": "Capital Press Group",
+      "verified": true,
+      "since": 2001,
+      "responseTime": "Within 1 day",
+      "listings": 8
+    },
+    "images": [
+      3,
+      2,
+      1
+    ]
+  },
+  {
+    "id": "ADS-1007",
+    "title": "Half Page Feature - Lifestyle Mag",
+    "category": "magazine",
+    "categoryName": "Magazine",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Mockup-featuring-a-magazine-pile-and-a-customizable-background-1104-el.png/960px-Mockup-featuring-a-magazine-pile-and-a-customizable-background-1104-el.png",
+    "location": "Corniche Road, Abu Dhabi",
+    "city": "Abu Dhabi",
+    "price": 4200,
+    "priceUnit": "insertion",
+    "size": "Half Page",
+    "rating": 4.3,
+    "reviews": 11,
+    "featured": false,
+    "availability": "Available Now",
+    "description": "Half-page editorial-style placement in a monthly lifestyle magazine popular with an affluent UAE readership.",
+    "tags": [
+      "Editorial Style",
+      "Premium Audience"
+    ],
+    "specs": {
+      "Format": "Print",
+      "Circulation": "18,000 copies",
+      "Frequency": "Monthly",
+      "Booking Type": "Per Insertion"
+    },
+    "mediaOwner": {
+      "name": "Horizon Publishing",
+      "verified": false,
+      "since": 2016,
+      "responseTime": "Within 2 days",
+      "listings": 5
+    },
+    "images": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "ADS-1008",
+    "title": "Rotating Digital Panel - Al Wahda Mall",
+    "category": "digital-billboard",
+    "categoryName": "Digital Billboard",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Digital_Billboard%2C_Wakefield_Road_-_Fenby_Avenue%2C_Bradford_-_geograph.org.uk_-_7383099.jpg/960px-Digital_Billboard%2C_Wakefield_Road_-_Fenby_Avenue%2C_Bradford_-_geograph.org.uk_-_7383099.jpg",
+    "location": "Al Wahda Mall, Abu Dhabi",
+    "city": "Abu Dhabi",
+    "price": 15000,
+    "priceUnit": "month",
+    "size": "16 x 9 ft",
+    "rating": 4.7,
+    "reviews": 33,
+    "featured": true,
+    "availability": "Available Now",
+    "description": "Indoor rotating digital panel at a top Abu Dhabi shopping destination, placing your brand in front of shoppers at the moment of decision.",
+    "tags": [
+      "Indoor",
+      "Mall Traffic"
+    ],
+    "specs": {
+      "Format": "Digital LED",
+      "Resolution": "1920 x 1080",
+      "Traffic": "Mall footfall",
+      "Booking Type": "Monthly"
+    },
+    "mediaOwner": {
+      "name": "Skyline Digital Media",
+      "verified": true,
+      "since": 2018,
+      "responseTime": "Within 1 hour",
+      "listings": 9
+    },
+    "images": [
+      2,
+      3,
+      1
+    ]
+  },
+  {
+    "id": "ADS-1009",
+    "title": "60ft x 20ft Mega Billboard",
+    "category": "billboard",
+    "categoryName": "Billboard",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Highway_Billboard_in_North_Dakota.jpg/960px-Highway_Billboard_in_North_Dakota.jpg",
+    "location": "Al Ittihad Road, Sharjah",
+    "city": "Sharjah",
+    "price": 20000,
+    "priceUnit": "month",
+    "size": "60 x 20 ft",
+    "rating": 4.9,
+    "reviews": 40,
+    "featured": true,
+    "availability": "Available Now",
+    "description": "One of the largest static billboards on the Dubai-Sharjah commuter corridor, delivering massive daily exposure for maximum impact campaigns.",
+    "tags": [
+      "Mega Format",
+      "Commuter Corridor"
+    ],
+    "specs": {
+      "Format": "Static Print",
+      "Illumination": "Backlit",
+      "Traffic": "220,000 vehicles/day",
+      "Booking Type": "Monthly"
+    },
+    "mediaOwner": {
+      "name": "Al Noor Outdoor Media",
+      "verified": true,
+      "since": 2014,
+      "responseTime": "Within 2 hours",
+      "listings": 18
+    },
+    "images": [
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "ADS-1010",
+    "title": "Morning Show Sponsorship",
+    "category": "radio",
+    "categoryName": "Radio",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Microphones_in_SPNN_Podcast_studio-01.jpg/960px-Microphones_in_SPNN_Podcast_studio-01.jpg",
+    "location": "Al Majaz, Sharjah",
+    "city": "Sharjah",
+    "price": 5000,
+    "priceUnit": "week",
+    "size": "Weekly",
+    "rating": 4.2,
+    "reviews": 9,
+    "featured": false,
+    "availability": "Limited Slots",
+    "description": "Named sponsorship of a popular weekday morning show, including regular on-air mentions and a branded segment.",
+    "tags": [
+      "Sponsorship",
+      "On-air Mentions"
+    ],
+    "specs": {
+      "Format": "Audio",
+      "Slot": "Morning 7-9am",
+      "Language": "Arabic",
+      "Booking Type": "Weekly"
+    },
+    "mediaOwner": {
+      "name": "Sharjah Broadcast Co.",
+      "verified": true,
+      "since": 2011,
+      "responseTime": "Within 6 hours",
+      "listings": 7
+    },
+    "images": [
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "id": "ADS-1011",
+    "title": "Regional News Bumper Ad",
+    "category": "tv",
+    "categoryName": "TV",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Smart_Television.jpg/960px-Smart_Television.jpg",
+    "location": "Ajman Media City, Ajman",
+    "city": "Ajman",
+    "price": 9000,
+    "priceUnit": "spot",
+    "size": "15 sec",
+    "rating": 4.0,
+    "reviews": 6,
+    "featured": false,
+    "availability": "Available Now",
+    "description": "Short-form bumper ad placed around the evening regional news bulletin, ideal for concise brand or offer messaging.",
+    "tags": [
+      "Short Form",
+      "News Adjacent"
+    ],
+    "specs": {
+      "Format": "Video",
+      "Slot": "News Bulletin 7pm",
+      "Language": "Arabic/English",
+      "Booking Type": "Per Spot"
+    },
+    "mediaOwner": {
+      "name": "Gulf Vision Broadcasting",
+      "verified": true,
+      "since": 2005,
+      "responseTime": "Within 1 day",
+      "listings": 6
+    },
+    "images": [
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "id": "ADS-1012",
+    "title": "Quarter Page - Business Daily",
+    "category": "newspaper",
+    "categoryName": "Newspaper",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/A_stack_of_newspapers.jpg",
+    "location": "Business Bay, Dubai",
+    "city": "Dubai",
+    "price": 3200,
+    "priceUnit": "insertion",
+    "size": "Quarter Page",
+    "rating": 4.5,
+    "reviews": 17,
+    "featured": false,
+    "availability": "Available Now",
+    "description": "Cost-effective quarter-page placement in a respected UAE business daily, well-suited for B2B services and financial products.",
+    "tags": [
+      "B2B Audience",
+      "Cost Effective"
+    ],
+    "specs": {
+      "Format": "Print",
+      "Circulation": "30,000 copies",
+      "Language": "English",
+      "Booking Type": "Per Insertion"
+    },
+    "mediaOwner": {
+      "name": "Capital Press Group",
+      "verified": true,
+      "since": 2001,
+      "responseTime": "Within 1 day",
+      "listings": 8
+    },
+    "images": [
+      3,
+      2,
+      1
+    ]
+  },
+  {
+    "id": "ADS-1013",
+    "title": "Highway Digital Screen - E11",
+    "category": "digital-billboard",
+    "categoryName": "Digital Billboard",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Digital_Billboard%2C_Wakefield_Road_-_Fenby_Avenue%2C_Bradford_-_geograph.org.uk_-_7383099.jpg/960px-Digital_Billboard%2C_Wakefield_Road_-_Fenby_Avenue%2C_Bradford_-_geograph.org.uk_-_7383099.jpg",
+    "location": "Sheikh Zayed Road (E11), Dubai",
+    "city": "Dubai",
+    "price": 22000,
+    "priceUnit": "month",
+    "size": "24 x 12 ft",
+    "rating": 4.8,
+    "reviews": 37,
+    "featured": true,
+    "availability": "Available Now",
+    "description": "High-impact digital screen on the E11 highway corridor with continuous vehicle exposure and multiple daily rotations.",
+    "tags": [
+      "Highway",
+      "High Rotation"
+    ],
+    "specs": {
+      "Format": "Digital LED",
+      "Resolution": "1920 x 1080",
+      "Traffic": "210,000 vehicles/day",
+      "Booking Type": "Monthly"
+    },
+    "mediaOwner": {
+      "name": "Skyline Digital Media",
+      "verified": true,
+      "since": 2018,
+      "responseTime": "Within 1 hour",
+      "listings": 9
+    },
+    "images": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "ADS-1014",
+    "title": "Cover Feature Ad - Business Weekly",
+    "category": "magazine",
+    "categoryName": "Magazine",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Mockup-featuring-a-magazine-pile-and-a-customizable-background-1104-el.png/960px-Mockup-featuring-a-magazine-pile-and-a-customizable-background-1104-el.png",
+    "location": "DIFC, Dubai",
+    "city": "Dubai",
+    "price": 9500,
+    "priceUnit": "insertion",
+    "size": "Inside Cover",
+    "rating": 4.6,
+    "reviews": 13,
+    "featured": false,
+    "availability": "Limited Slots",
+    "description": "High-visibility inside cover placement in a respected UAE business weekly, read closely by decision makers and investors.",
+    "tags": [
+      "Inside Cover",
+      "Decision Makers"
+    ],
+    "specs": {
+      "Format": "Print",
+      "Circulation": "22,000 copies",
+      "Frequency": "Weekly",
+      "Booking Type": "Per Insertion"
+    },
+    "mediaOwner": {
+      "name": "Horizon Publishing",
+      "verified": false,
+      "since": 2016,
+      "responseTime": "Within 2 days",
+      "listings": 5
+    },
+    "images": [
+      2,
+      3,
+      1
+    ]
+  }
+]

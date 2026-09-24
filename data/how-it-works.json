@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "discover",
+    "title": "Discover Space",
+    "description": "Browse advertising spaces across the UAE and discover locations that fit your brand, audience, and campaign goals."
+  },
+  {
+    "icon": "fit",
+    "title": "Find Your Best Fit",
+    "description": "Compare locations, formats, prices, and audience details to find the spaces that make the most for your campaign."
+  },
+  {
+    "icon": "connect",
+    "title": "Connect Directly",
+    "description": "Get in touch with media owners, ask questions, check availability, and discuss the details before you commit."
+  },
+  {
+    "icon": "launch",
+    "title": "Launch Your Campaign",
+    "description": "Secure the right advertising space and turn your campaign plans into real-world visibility across the UAE."
+  }
+]

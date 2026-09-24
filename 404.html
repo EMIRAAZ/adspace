@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page Not Found | adspace.ae</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .not-found-wrap {
+      min-height: 70vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 80px 24px;
+      background: var(--white);
+    }
+    .not-found-code {
+      font-size: 96px;
+      font-weight: 800;
+      color: var(--primary);
+      line-height: 1;
+      margin-bottom: 16px;
+      letter-spacing: -0.03em;
+    }
+    .not-found-title {
+      font-size: 28px;
+      font-weight: 700;
+      color: #1f2029;
+      margin-bottom: 14px;
+    }
+    .not-found-text {
+      font-size: 15.5px;
+      color: var(--gray-600);
+      max-width: 480px;
+      margin-bottom: 32px;
+      line-height: 1.6;
+    }
+    .not-found-actions {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">adspace.ae</a>
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html">Home</a>
+        <a href="listings.html">Listings</a>
+        <a href="index.html#how-it-works">How it Works</a>
+        <a href="index.html#about">About</a>
+      </nav>
+      <div class="header-actions">
+        <a href="#" class="nav-auth-link">Login</a>
+        <a href="#" class="nav-auth-link nav-auth-cta">Signup</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false"></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="not-found-wrap">
+    <div class="not-found-code">404</div>
+    <h1 class="not-found-title">Page Not Found</h1>
+    <p class="not-found-text">
+      The ad space or page you are looking for doesn't exist or may have been moved.
+    </p>
+    <div class="not-found-actions">
+      <a href="index.html" class="btn btn-primary">Back to Home</a>
+      <a href="listings.html" class="btn btn-ghost">Browse Listings</a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">adspace.ae</a>
+        <p>The UAE's marketplace for discovering, comparing and booking advertising spaces — from billboards to broadcast.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="listings.html">Listings</a></li>
+          <li><a href="index.html#how-it-works">How it Works</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Terms &amp; Conditions</a></li>
+          <li><a href="#">Privacy &amp; Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">Copyright &copy; 2026 adspace.ae. All Rights Reserved.</div>
+  </footer>
+
+  <script src="js/utils.js"></script>
+  <script src="js/components.js"></script>
+</body>
+</html>

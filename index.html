@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>adspace.ae — Find the Perfect Ad Space Across the UAE</title>
+<meta name="description" content="Discover, compare and book billboards, digital screens, radio, TV and print ad spaces across the UAE." />
+<link rel="canonical" href="https://adspace.ae/index.html" />
+
+<link rel="icon" type="image/png" href="images/adspace-logo.png" />
+<link rel="apple-touch-icon" href="images/adspace-logo.png" />
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="adspace.ae" />
+<meta property="og:title" content="adspace.ae — Find the Perfect Ad Space Across the UAE" />
+<meta property="og:description" content="Discover, compare and book billboards, digital screens, radio, TV and print ad spaces across the UAE." />
+<meta property="og:url" content="https://adspace.ae/index.html" />
+<meta property="og:image" content="https://adspace.ae/images/adspace-logo.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="adspace.ae — Find the Perfect Ad Space Across the UAE" />
+<meta name="twitter:description" content="Discover, compare and book billboards, digital screens, radio, TV and print ad spaces across the UAE." />
+<meta name="twitter:image" content="https://adspace.ae/images/adspace-logo.png" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "adspace.ae",
+  "url": "https://adspace.ae/",
+  "logo": "https://adspace.ae/images/adspace-logo.png",
+  "description": "The UAE's marketplace for discovering, comparing and booking advertising spaces — from billboards to broadcast.",
+  "areaServed": "AE"
+}
+</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">adspace.ae</a>
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html">Home</a>
+      <a href="#about">About</a>
+      <a href="#" class="nav-auth-link">Login</a>
+      <a href="#" class="nav-auth-link nav-auth-cta">Signup</a>
+    </nav>
+    <div class="header-actions">
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false"></button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero-section">
+  <div class="hero-outer-container">
+    <div class="hero-banner">
+      <div class="hero-overlay" aria-hidden="true"></div>
+
+      <div class="hero-content">
+        <h1 class="hero-title">
+          Find the Perfect Ad Space<br>
+          <em>Across the UAE</em>
+        </h1>
+
+        <form class="hero-search-pill" id="heroSearchForm">
+          <div class="pill-field">
+            <span class="pill-icon">
+              <svg viewBox="0 0 24 24" class="field-icon-svg" fill="#e1382d" aria-hidden="true">
+                <path d="M12 2.5a2 2 0 0 1 1.73 1l7 12A2 2 0 0 1 19 18.5H5a2 2 0 0 1-1.73-3l7-12a2 2 0 0 1 1.73-1zm0 3.8L6.87 16h10.26L12 6.3zM12 11a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4z"/>
+              </svg>
+            </span>
+            <select id="searchType" aria-label="Select Adspace Type">
+              <option value="">Select Adspace Type</option>
+            </select>
+            <span class="pill-chevron" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
+            </span>
+          </div>
+
+          <span class="pill-divider" aria-hidden="true"></span>
+
+          <div class="pill-field">
+            <span class="pill-icon">
+              <svg viewBox="0 0 24 24" class="field-icon-svg" fill="#e1382d" aria-hidden="true">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z"/>
+              </svg>
+            </span>
+            <select id="searchLocation" aria-label="Select Location">
+              <option value="">Select Location</option>
+            </select>
+            <span class="pill-chevron" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
+            </span>
+          </div>
+
+          <button type="submit" class="pill-search-btn">
+            <span>Search</span>
+            <svg viewBox="0 0 24 24" class="search-btn-icon" aria-hidden="true">
+              <circle cx="11" cy="11" r="7"/>
+              <path d="M21 21l-4.35-4.35"/>
+            </svg>
+          </button>
+
+          <span class="pill-accent-line" aria-hidden="true"></span>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CATEGORIES ============ -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="section-head">
+      <h2>Find by <span class="text-accent">Adspace Category</span></h2>
+    </div>
+    <div class="category-grid" id="categoryGrid"></div>
+  </div>
+</section>
+
+<!-- ============ STATS ============ -->
+<section class="stats-section">
+  <div class="hero-stats-bar" id="heroStats"></div>
+</section>
+
+<!-- ============ FEATURED LISTINGS ============ -->
+<section class="section-tight">
+  <div class="container">
+    <div class="listing-grid" id="featuredGrid"></div>
+    <div style="text-align:center; margin-top:40px;">
+      <a href="listings.html" class="btn btn-ghost">View All Listings</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HOW IT WORKS ============ -->
+<section class="section how-it-works-section" id="how-it-works">
+  <div class="container">
+    <div class="how-it-works-head">
+      <div class="how-it-works-badge">
+        <span class="badge-line" aria-hidden="true"></span>
+        <span class="badge-text">HOW IT WORKS</span>
+        <span class="badge-line" aria-hidden="true"></span>
+      </div>
+      <h2 class="how-it-works-title">Your Next <span class="title-accent-italic">Adspace Starts Here!</span></h2>
+      <p class="how-it-works-subtitle">From discovering locations to connecting with media owners, adspace.ae makes<br class="desktop-br"> finding the right advertising space across the UAE simple.</p>
+    </div>
+    <div class="steps-grid" id="stepsGrid">
+      <div class="step-tile">
+        <div class="step-icon">
+          <svg class="step-svg" viewBox="0 0 40 40" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M15 3C9.48 3 5 7.48 5 13C5 19.5 12.8 27.5 14.3 29C14.7 29.4 15.3 29.4 15.7 29C16.8 27.9 19.5 24.9 21.6 21.4C20.6 19.8 20 18 20 16C20 15.6 20.03 15.2 20.1 14.8C18.8 13.7 17.5 12 17.5 10C17.5 9.7 17.52 9.5 17.56 9.3C16.8 8.5 15.9 8 15 8C12.24 8 10 10.24 10 13C10 15.76 12.24 18 15 18C15.8 18 16.5 17.8 17.1 17.4C18 15.7 19.8 14.3 22 13.9C21.8 7.8 18.7 3 15 3ZM15 10.5C13.62 10.5 12.5 11.62 12.5 13C12.5 14.38 13.62 15.5 15 15.5C16.38 15.5 17.5 14.38 17.5 13C17.5 11.62 16.38 10.5 15 10.5Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M26.5 16C23.46 16 21 18.46 21 21.5C21 24.54 23.46 27 26.5 27C27.76 27 28.92 26.58 29.85 25.86L34.29 30.3C34.68 30.69 35.32 30.69 35.71 30.3C36.1 29.91 36.1 29.27 35.71 28.88L31.28 24.45C31.73 23.58 32 22.57 32 21.5C32 18.46 29.54 16 26.5 16ZM23.5 21.5C23.5 19.84 24.84 18.5 26.5 18.5C28.16 18.5 29.5 19.84 29.5 21.5C29.5 23.16 28.16 24.5 26.5 24.5C24.84 24.5 23.5 23.16 23.5 21.5Z"/></svg>
+        </div>
+        <h3 class="step-title">Discover Space</h3>
+        <p class="step-description">Browse advertising spaces across the UAE and discover locations that fit your brand, audience, and campaign goals.</p>
+      </div>
+      <div class="step-tile">
+        <div class="step-icon">
+          <svg class="step-svg" viewBox="0 0 40 40" fill="currentColor" aria-hidden="true"><g transform="rotate(-30 20 20)"><path d="M8.5 22C8.5 15.65 13.65 10.5 20 10.5H27.2L23.6 6.9C23.2 6.5 23.2 5.9 23.6 5.5C24 5.1 24.6 5.1 25 5.5L31.1 11.6C31.5 12 31.5 12.6 31.1 13L25 19.1C24.8 19.3 24.5 19.4 24.3 19.4C24 19.4 23.8 19.3 23.6 19.1C23.2 18.7 23.2 18.1 23.6 17.7L27.1 14.2H20C15.7 14.2 12.2 17.7 12.2 22C12.2 22.8 11.6 23.4 10.8 23.4C10 23.4 8.5 22.8 8.5 22Z"/><path d="M31.5 18C31.5 24.35 26.35 29.5 20 29.5H12.8L16.4 33.1C16.8 33.5 16.8 34.1 16.4 34.5C16.2 34.7 15.9 34.8 15.7 34.8C15.5 34.8 15.2 34.7 15 34.5L8.9 28.4C8.5 28 8.5 27.4 8.9 27L15 20.9C15.4 20.5 16 20.5 16.4 20.9C16.8 21.3 16.8 21.9 16.4 22.3L12.9 25.8H20C24.3 25.8 27.8 22.3 27.8 18C27.8 17.2 28.4 16.6 29.2 16.6C30 16.6 31.5 17.2 31.5 18Z"/></g></svg>
+        </div>
+        <h3 class="step-title">Find Your Best Fit</h3>
+        <p class="step-description">Compare locations, formats, prices, and audience details to find the spaces that make the most for your campaign.</p>
+      </div>
+      <div class="step-tile">
+        <div class="step-icon">
+          <svg class="step-svg" viewBox="0 0 40 40" fill="currentColor" aria-hidden="true"><line x1="20" y1="20" x2="9" y2="10" stroke="currentColor" stroke-width="2.8" stroke-linecap="round"/><line x1="20" y1="20" x2="30" y2="8" stroke="currentColor" stroke-width="2.8" stroke-linecap="round"/><line x1="20" y1="20" x2="32" y2="22" stroke="currentColor" stroke-width="2.8" stroke-linecap="round"/><line x1="20" y1="20" x2="21" y2="32" stroke="currentColor" stroke-width="2.8" stroke-linecap="round"/><line x1="20" y1="20" x2="8" y2="26" stroke="currentColor" stroke-width="2.8" stroke-linecap="round"/><circle cx="20" cy="20" r="4.2"/><circle cx="9" cy="10" r="3.3"/><circle cx="30" cy="8" r="3.3"/><circle cx="32" cy="22" r="3.3"/><circle cx="21" cy="32" r="3.3"/><circle cx="8" cy="26" r="3.3"/></svg>
+        </div>
+        <h3 class="step-title">Connect Directly</h3>
+        <p class="step-description">Get in touch with media owners, ask questions, check availability, and discuss the details before you commit.</p>
+      </div>
+      <div class="step-tile">
+        <div class="step-icon">
+          <svg class="step-svg" viewBox="0 0 40 40" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M33.8 6.2C34.2 6.6 34.2 7.3 33.8 7.8C31.8 11.2 29.2 16.4 28.5 21.6C28.2 23.3 27.5 24.9 26.4 26.2L28.7 28.5C29.3 29.1 29.1 30.2 28.2 30.6L22.6 33.2C22.1 33.4 21.5 33.3 21.1 32.9L18 29.8L15.3 32.5C14.7 33.1 13.7 33.1 13.1 32.5L8.2 27.6C7.6 27 7.6 26 8.2 25.4L10.9 22.7L7.8 19.6C7.4 19.2 7.3 18.6 7.5 18.1L10.1 12.5C10.5 11.6 11.6 11.4 12.2 12L14.5 14.3C15.8 13.2 17.4 12.5 19.1 12.2C24.3 11.5 29.5 8.9 32.9 6.9C33.4 6.5 33.9 6.5 33.8 6.2ZM24 16C25.1 16 26 15.1 26 14C26 12.9 25.1 12 24 12C22.9 12 22 12.9 22 14C22 15.1 22.9 16 24 16Z"/><path d="M5.5 34.5C4.9 35.1 4 34.9 3.7 34.2C3 32.6 3.6 30.6 4.9 29.5L8.8 26.5L14.2 31.9L11.2 35.8C10.1 37.1 8.1 37.7 6.5 37C5.8 36.7 5.7 35.8 6.3 35.3L7.5 34.3L5.5 34.5Z"/></svg>
+        </div>
+        <h3 class="step-title">Launch Your Campaign</h3>
+        <p class="step-description">Secure the right advertising space and turn your campaign plans into real-world visibility across the UAE.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CAMPAIGN SPLIT ============ -->
+<section class="section campaign-section" id="campaign-plan">
+  <div class="container campaign-split">
+    <div class="campaign-content">
+      <div class="campaign-badge">
+        <span class="badge-text">BUILT FOR SMARTER CAMPAIGNS</span>
+        <span class="badge-line" aria-hidden="true"></span>
+      </div>
+
+      <h2 class="campaign-title">
+        Plan Better. <span class="title-accent-italic">Advertise Smarter.</span>
+      </h2>
+
+      <p class="campaign-desc">
+        From your first search to the final placement, adspace.ae helps you bring your advertising plans together in one simple platform. Explore opportunities, organize your choices, and connect with the right media owners across the UAE.
+      </p>
+
+      <h3 class="campaign-subheading">
+        One platform <span class="title-accent-italic">for the entire journey</span>
+      </h3>
+
+      <p class="campaign-subdesc">
+        Explore advertising spaces across different formats and locations, keep your options organized, and make decisions with the information you need—all without jumping between countless media owners.
+      </p>
+
+      <div class="campaign-actions">
+        <a href="listings.html" class="btn btn-campaign-cta">Start Exploring</a>
+      </div>
+    </div>
+
+    <div class="campaign-visual">
+      <img
+        src="images/better-campaign.png"
+        alt="Plan Better, Advertise Smarter with adspace.ae campaign tools"
+        class="campaign-visual-img"
+        loading="lazy"
+      />
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="index.html" class="logo">adspace.ae</a>
+      <p>The UAE's marketplace for discovering, comparing and booking advertising spaces — from billboards to broadcast.</p>
+      <div class="footer-social">
+        <a href="#" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" class="icon" fill="currentColor" stroke="none"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76a1.64 1.64 0 1 0 0-3.28 1.64 1.64 0 0 0 0 3.28m1.39 9.74v-8.37H5.07v8.37h2.78z"/></svg>
+        </a>
+        <a href="#" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" class="icon" fill="currentColor" stroke="none"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95C18.05 21.45 22 17.19 22 12z"/></svg>
+        </a>
+        <a href="#" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" class="icon" fill="currentColor" stroke="none"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+        </a>
+      </div>
+      <div class="footer-badges">
+        <a href="#" class="footer-badge" aria-label="Get it on Google Play">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M6 3l14 9-14 9V3z"/></svg>
+          <span class="footer-badge-text"><small>GET IT ON</small><strong>Google Play</strong></span>
+        </a>
+        <a href="#" class="footer-badge" aria-label="Download on the App Store">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg>
+          <span class="footer-badge-text"><small>Download on the</small><strong>App Store</strong></span>
+        </a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">News</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#">Terms &amp; Conditions</a></li>
+        <li><a href="#">Privacy &amp; Policy</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Account</h4>
+      <ul>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Registration</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">Copyright &copy; 2026 adspace.ae. All Rights Reserved.</div>
+</footer>
+
+<script src="js/utils.js"></script>
+<script src="js/components.js"></script>
+<script src="js/home.js"></script>
+</body>
+</html>
